@@ -1,0 +1,7 @@
+linux服务方法：
+
+请用root权限操作
+1、上传文件到相应目录（BY-Monitor、BY-service.sh）
+2、修改两个文件的权限 chmod +x BY-Monitor 、 chmod +x BY-service.sh
+3、启动服务 ./BY-service.sh start
+4、其他参数 ./BY-service.sh (start|stop|restart|status) 
